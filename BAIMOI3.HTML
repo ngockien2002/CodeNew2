@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Sample HTML5 Layout</title>
+    <style>
+            header{
+            padding: 0px;
+            text-align: center;
+            background-color: lightblue;
+        }
+        nav{
+            text-align: center;
+        }
+        ul li{
+            display: inline;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        section{
+            padding: 5px;
+            border:dashed 3px #0026ff;
+            width: 50%;
+            margin-top: 5px;
+        }
+        article{
+            padding: 5px;
+            border: dotted 3px #ff006e;
+            margin-top: 5px;
+        }
+        aside{
+            width: 30%;
+
+        }
+        aside img{
+            width: 150%;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        footer{
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Đại họv mỏ địa chất
+        </h1>
+        <h2> khoa cntt</h2>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Tuyển sinh</a></li>
+            <li><a href="#">Tin tức</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section>
+            <h1>Bài viết</h1>
+            <article>
+                <h1>Thông tin về khoa CNTT</h1>
+                <p> Khoa cntt được thành lập vào năm 2002 </p>
+            </article>
+            <article>
+                <h1>Tổ chức về khoa cntt</h1>
+                <p>Khoa cntt gồm 7 bộ môn</p>               
+            </article>
+            <article>
+                <h1> Hoạt động nghiên cứu khoa học </h1>
+                <p>Hiện nay ..</p>
+            </article>
+        </section>
+        <aside>
+            <img src="data:image/png;base64,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" />
+        </aside>
+    </div>
+    <footer>
+        <hr/>
+       Địa chỉ: Phố Viên,Cổ Nhuế,Nam Từ Liêm,Hà Nội
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<head>
+    <meta charset="utr-8">
+    <title> CSS Table</title>
+    <style>
+          div.a1{
+            text-align: center;
+        }
+        
+        table {
+        border: 2px solid blue;
+        border-collapse: collapse;
+        border-top: red solid 2px;
+        
+        }
+        td, th{
+        border: 1px solid blue;
+        padding: 5px;
+        text-align: center;
+        
+        }
+        th {
+        background-color: lightblue;
+        }
+        .dzkosai{
+        background-color: chartreuse;
+        color:red;
+        }
+        .dzcotoi{
+        background-color: darkturquoise;
+        color:black;
+        }
+        .dzcotai{
+        color:green;
+        border-style: groove;
+        }
+        h1{
+            color: maroon;
+            text-align: center;
+            border-style: double;
+            
+     }
+     .so{
+        text-align: center;
+        color:gold;
+        background-color: lime;
+        border-style: groove;
+     }
+     .soa{
+        text-align: center;
+        background-color: cyan;
+        color:darkgreen;
+        border-style: double;
+        
+     }
+    </style>
+</head>
+body{
+ 
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <link rel="stylesheet" href="tygia.css">
+        <meta charset="utf-8">
+        <title>TỶ GIÁ NGOẠI TỆ</title>   
+        <style>
+            table{
+        border: 2px solid blue;
+        border-collapse: collapse;
+        width: 30%;
+    }
+    td, th{
+        border: 1px solid blue;
+        padding: 5px;
+        text-align: center;
+    }
+    th:hover{
+        background-color: lightblue;
+        background:red;
+    }
+    .odd{
+        background-color: lightgreen;
+    }
+    .even{
+        background-color: lightyellow;
+    }
+    tr:hover{
+        background: yellow;
+        color: white;
+    }
+    #USD{
+        background-color: blue;
+    }
+        </style>  
+    </head>
+    <body>
+        <table>
+            <caption><h2>Tỷ giá ngoại tệ</h2></caption>
+            <tr class="even">
+                <th>Loại ngoại tệ</th>
+                <th> Mua vào</th>
+                <th> Bán ra</th>
+                <th>Chuyển khoản</th>    
+            </tr>                     
+        <tr class="odd">
+            <td>AUD</td>
+            <td>15.400</td>
+            <td>18.300</td>
+            <td>15.466</td>
+        </tr>
+        <tr class="hover">
+            <td>CND</td>
+            <td>18.300</td>
+            <td>18.450</td>
+            <td>18.377</td>
+        </tr>
+        <tr class="odd">
+            <td>JPD</td>
+            <td>190</td>
+            <td>220</td>
+            <td>207</td>
+        </tr> 
+        <tr class="hover">
+            <td>HKD</td>
+            <td>1190</td>
+            <td>1220</td>
+            <td>1207</td>
+        </tr>
+        <tr class="odd">
+            <td id="USD">USD</td>
+            <td>23.400</td>
+            <td>23.550</td>
+            <td>23.466</td>
+        </tr>
+        </table>
+         
+    </body>
+</html>

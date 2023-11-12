@@ -1,0 +1,15 @@
+h1{
+    color: maroon;
+    text-align: center;
+}
+table, td, th{
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+ul il{
+    color: blue;
+}

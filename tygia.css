@@ -1,0 +1,30 @@
+
+table, th, td{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+    border: 2px solid blue;
+   
+}
+td, th{
+    border: 1px solid blue;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: lightblue;
+}
+.even{
+    color:aliceblue;  
+    background-color: black;
+    ;
+}
+.odd{
+    color:yellow;
+    background-color: darkgreen;
+}
+.young{
+    color:white;
+    background-color: blue;
+}

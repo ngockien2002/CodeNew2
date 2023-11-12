@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>My Web Page !</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <style>
+            @media (min-width: 700px) {
+                body {
+                    background-color: lightgreen;
+                }
+                h1::after {content: "My first responsive website"}
+            }
+            @media (max-width: 699px) {
+                body {
+                    background-color: lightblue;
+                }
+                h1::before{content: "Responsive website"}
+                p{display: none;}
+            }
+            ul {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+            border: 2px solid #666;
+            }
+            li a{
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color:  #555000;
+                color:white;
+            }
+            li{
+                text-align: left;
+                border-bottom:  1px solid #555;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <h1>My first responsive website</h1>
+        <ul >
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#new">Giới thiệu</a></li>
+            <li><a href="#contact">Đào tạo</a></li>
+            <li><a href="#home">Tư vấn tuyển sinh</a></li>
+        </ul>
+        <p>meta viewport nghĩa là một thẻ thiết lập cho trình duyệt hiển thị tương ứng 
+            với kích thước màn hình .Chẳng hạn như ví dụ trên, có nghĩa là ạn sẽ thiệt 
+            lập trình duyệt hiển thị cố định và tương ứng trên tất cả các thiết bị dựa
+            vào chiều rộng của thiết vị (device-width) và khônng cho phép người dùng 
+            phóng to (thiêt lập initial-scale với giá trị cố định là 1).
+            Bác Hồ, Người là niềm tin thiết tha nhất trong lòng dân và trong trái tim nhân loại. Suốt đời, Bác hi sinh cho độc lập, tự do…”.
+            Trên đây là câu hát tiêu biểu trong muôn ngàn câu hát, bài thơ ca ngợi Chủ tịch Hồ Chí Minh, vị lãnh tụ vĩ đại của nhân dân Việt Nam, anh hùng giải phóng dân tộc, danh nhân văn hóa thế giới.
+            Đất nước Việt Nam tự hào về Bác Hồ bởi Bác chính là sự kết tinh những tinh hoa truyền thống của bản sắc dân tộc. Nhân dân ta đã thấy ở Bác Hồ con người Việt Nam đẹp nhất và nhân dân thế giới gắn liền tên nước Việt Nam với tên của Chủ tịch Hồ Chí Minh: Việt Nam – Hồ Chí Minh.
+            Với vai trò của một lãnh tụ cách mạng, Bác đã hoàn thành xuất sắc sứ mệnh của mình đối với dân, với nước. Bác là người sáng lập ra Đảng cộng sản Việt Nam, cùng Đảng dẫn đường chỉ lối cho dân tộc vùng lên phá bỏ xích xiềng nô lệ thực dân, phong kiến, giành quyền sống tự do.
+             Người chiến sĩ cộng sản lão thành Nguyễn Ái Quốc đã trở thành vị Chủ tịch đầu tiên của Chính phủ lâm thời Nước Việt Nam Dân chủ Cộng hòa, có chủ quyền độc lập thiêng liêng. Nếu so sánh sự nghiệp đấu tranh chống xâm lăng, bảo vệ Tổ quốc kéo dài suốt ba mươi năm của dân tộc ta là một con tàu giữa đại dương đầy bão tố thì Chủ tịch Hồ Chí Minh là người thuyền trưởng tài ba, sáng suốt, đã đưa con tàu vượt qua trùng trùng sóng gió, cập bến vinh quang. </p>
+    </body>
+</html>
